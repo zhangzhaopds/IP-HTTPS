@@ -16,6 +16,9 @@
 		E226754723672D1900A96603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E226754623672D1900A96603 /* main.m */; };
 		E226755123672D1900A96603 /* IPHTTPS_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E226755023672D1900A96603 /* IPHTTPS_DemoTests.m */; };
 		E226755C23672D1900A96603 /* IPHTTPS_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E226755B23672D1900A96603 /* IPHTTPS_DemoUITests.m */; };
+		E226756B23672EF100A96603 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E226756A23672EF100A96603 /* NetworkManager.m */; };
+		E226756E2367322200A96603 /* CustomURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E226756D2367322200A96603 /* CustomURLProtocol.m */; };
+		E2267571236733BC00A96603 /* NetWorkRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2267570236733BC00A96603 /* NetWorkRequestSerializer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		E226755723672D1900A96603 /* IPHTTPS_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPHTTPS_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E226755B23672D1900A96603 /* IPHTTPS_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPHTTPS_DemoUITests.m; sourceTree = "<group>"; };
 		E226755D23672D1900A96603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E226756923672EF100A96603 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		E226756A23672EF100A96603 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		E226756C2367322200A96603 /* CustomURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomURLProtocol.h; sourceTree = "<group>"; };
+		E226756D2367322200A96603 /* CustomURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomURLProtocol.m; sourceTree = "<group>"; };
+		E226756F236733BC00A96603 /* NetWorkRequestSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkRequestSerializer.h; sourceTree = "<group>"; };
+		E2267570236733BC00A96603 /* NetWorkRequestSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequestSerializer.m; sourceTree = "<group>"; };
 		E5B726265052B5162425AC75 /* Pods_IPHTTPS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPHTTPS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +138,12 @@
 				E226753823672D1700A96603 /* AppDelegate.m */,
 				E226753A23672D1700A96603 /* ViewController.h */,
 				E226753B23672D1700A96603 /* ViewController.m */,
+				E226756F236733BC00A96603 /* NetWorkRequestSerializer.h */,
+				E2267570236733BC00A96603 /* NetWorkRequestSerializer.m */,
+				E226756923672EF100A96603 /* NetworkManager.h */,
+				E226756A23672EF100A96603 /* NetworkManager.m */,
+				E226756C2367322200A96603 /* CustomURLProtocol.h */,
+				E226756D2367322200A96603 /* CustomURLProtocol.m */,
 				E226753D23672D1700A96603 /* Main.storyboard */,
 				E226754023672D1900A96603 /* Assets.xcassets */,
 				E226754223672D1900A96603 /* LaunchScreen.storyboard */,
@@ -335,6 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2267571236733BC00A96603 /* NetWorkRequestSerializer.m in Sources */,
+				E226756E2367322200A96603 /* CustomURLProtocol.m in Sources */,
+				E226756B23672EF100A96603 /* NetworkManager.m in Sources */,
 				E226753C23672D1700A96603 /* ViewController.m in Sources */,
 				E226754723672D1900A96603 /* main.m in Sources */,
 				E226753923672D1700A96603 /* AppDelegate.m in Sources */,
