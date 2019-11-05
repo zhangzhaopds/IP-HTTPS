@@ -1,9 +1,9 @@
 //
 //  CustomURLProtocol.h
-//  IPHTTPS_Demo
+//  oupai
 //
-//  Created by 张昭 on 2019/10/28.
-//  Copyright © 2019 HeyFox. All rights reserved.
+//  Created by zhangzhao on 2019/11/5.
+//  Copyright © 2019 yizhibo. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
