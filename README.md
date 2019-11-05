@@ -1,2 +1,2 @@
 # IP-HTTPS
-IP直连
+基于CFNetwork的SNI处理
